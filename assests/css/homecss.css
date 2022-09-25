@@ -1,0 +1,33 @@
+
+a.main{
+    text-decoration: none;
+    text-align:center;
+    margin:20px;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    background-color:black;
+    color: azure;
+    height: 60px;
+    width: 300px;
+    border-radius: 10px;
+}
+h1.login{
+    color: white;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px ;    
+}
+
+div.flex{
+    background-color:wheat;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+}
+body{
+    background-color: blueviolet;
+    display:list-item;
+}

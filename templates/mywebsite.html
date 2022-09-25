@@ -1,0 +1,81 @@
+{% load static%}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PRAMOD</title>
+<style>
+    body{
+        background-color:blueviolet;
+    }
+    img.logo{
+        height: 40px;
+        width:  40px;
+        border-radius: 20px;
+        border: 5px solid black;
+    }
+    div.flexbox-container{
+        display:flex;
+        justify-content:space-evenly;
+        position: relative;
+        top: 50px;
+        
+    }
+    p.description{
+        font-size: 30px;
+        position: relative;
+        top: 60px;
+        right:-30px;
+        color: white;
+        font-family:'Courier New', Courier, monospace;
+    }
+    p.heading{
+        position: relative;
+        top: 80px;
+        right:-10px;
+        color: white;
+        font-size: 60px;
+        font-family:'Courier New', Courier, monospace;
+    }
+    a.flexbox-item.ab{
+        font-size: 30px;
+        background-color:blueviolet;
+        border: 0px;
+        text-align: center;
+    }
+    a.flexbox-item{
+        text-align: center;
+        border: 20px solid black;
+        background-color:black;
+        font-family:'Courier New', Courier, monospace;
+        font-weight: bold;
+        color:white;
+        height: 40px;
+        font-size: 40px;
+        border-radius: 30px;
+        text-decoration: none;
+    }    
+</style>
+</head>
+<body >
+<div class="flexbox-container">
+    <a href="" class="flexbox-item">Home</a>
+    <a href="about" class="flexbox-item">About</a>
+    <a href="photos" class="flexbox-item">Photos</a>
+    <a href="register" class="flexbox-item">Register</a>
+    <a></a>
+    <a></a>
+    <a></a>
+    <a></a>
+    <a></a>
+    <a></a> 
+    <a></a>
+    <img class="logo" src="{% static "images/camera.svg" %}">
+    <a href="login" class="flexbox-item ab">{{message}}</a>
+</div>
+<p class="heading">A Place To Store Images<br></p>
+<p class="description">Login to save your images and videos</p>
+</body>
+</html>

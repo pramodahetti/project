@@ -1,0 +1,48 @@
+body{
+    background-color:blueviolet;
+}
+img.logo{
+    height: 80px;
+    width:  80px;
+    border-radius: 20px;
+}
+div.flexbox-container{
+    display:flex;
+    justify-content:space-evenly;
+    position: relative;
+    top: 50px;
+    
+}
+p.description{
+    position: relative;
+    top: 60px;
+    right:-30px;
+    font-size: larger;
+    color: white;
+    font-family:'Courier New', Courier, monospace;
+}
+p.heading{
+    position: relative;
+    top: 80px;
+    right:-10px;
+    color: white;
+    font-size: 60px;
+    font-family:'Courier New', Courier, monospace;
+}
+a.flexbox-item.ab{
+    background-color:blueviolet;
+    border: 0px;
+}
+a.flexbox-item{
+    align-content: center;
+    text-align: center;
+    border: 20px solid black;
+    background-color:black;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: bold;
+    color:white;
+    height: 50px;
+    font-size: 40px;
+    border-radius: 30px;
+    text-decoration: none;
+}
